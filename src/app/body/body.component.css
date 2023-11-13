@@ -1,0 +1,16 @@
+/* book-list.component.css */
+
+.book-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    height: 100vh; /* Make the container cover the full viewport height */
+  }
+  
+  .book-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  

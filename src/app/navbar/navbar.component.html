@@ -1,0 +1,15 @@
+<header>
+    <nav>
+      <a routerLink="/books">Our Library</a>
+      <ul>
+        <li><a routerLink="/books">Books</a></li>
+        <li><a routerLink="/login">Log In</a></li>
+        <li><a routerLink="/register">Register</a></li>
+      </ul>
+      <form>
+        <input type="text" placeholder="Search" [(ngModel)]="searchTerm" name="searchTerm">
+        <button (click)="onSearch()">Search</button>
+      </form>
+    </nav>
+  </header>
+  

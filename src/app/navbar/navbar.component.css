@@ -1,0 +1,55 @@
+/* navbar.component.css */
+
+/* Style for the header containing the navigation bar */
+header {
+    background-color: #7eb1e9; /* Background color for the header */
+    padding: 5px; /* Reduce the padding to make it thinner */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  }
+  
+  /* Style for the navigation bar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style for the navigation links */
+  nav ul {
+    list-style: none; /* Remove bullets from the list */
+    display: flex;
+    align-items: flex-start; /* Align links vertically in the middle */
+  }
+  
+  nav li {
+    margin-right: 60px; /* Add spacing between links */
+  }
+  
+  nav a {
+    color: #f4f809; /* Text color for links */
+    text-decoration: none; /* Remove underlines from links */
+    font-size: 18px; /* Font size for links */
+  }
+  
+  /* Style for the search input and button */
+  form {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #CCC; /* Border for the input field */
+    border-radius: 4px; /* Rounded corners for the input field */
+  }
+  
+  button {
+    background-color: #f4f809; /* Background color for the button */
+    color: #FFF; /* Text color for the button */
+    border: none;
+    border-radius: 4px; /* Rounded corners for the button */
+    margin-left: 10px; /* Add spacing between input and button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
