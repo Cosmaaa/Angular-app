@@ -13,4 +13,9 @@ export class NavbarComponent {
     // You can implement the search logic here
     console.log('Searching for:', this.searchTerm);
    }
+
+   navigateToLogIn(){
+      console.log('lalalal')
+   }
+
 }

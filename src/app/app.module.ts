@@ -7,7 +7,8 @@ import { BodyComponent } from './body/body.component';
 import { LogInComponent } from './log-in/log-in.component';
 import { RegisterComponent } from './register/register.component';
 import { AppRoutingModule } from './app-routing.module';
-import { DisplayComponent } from './display/display.component';
+
+
 
 
 @NgModule({
@@ -17,7 +18,7 @@ import { DisplayComponent } from './display/display.component';
     BodyComponent,
     LogInComponent,
     RegisterComponent,
-    DisplayComponent,
+    
     
   ],
   imports: [
